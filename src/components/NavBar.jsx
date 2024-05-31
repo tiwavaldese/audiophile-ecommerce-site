@@ -4,18 +4,18 @@ import shape from '../assets/Shape.png'
 const NavBar = () => {
   return (
     <div className=' bg-[black]'>
-       <nav className='p-12  flex justify-evenly text-[white]'>
-        <div>audiophile</div>
+       <nav className='p-12 mx-auto  flex justify-evenly text-[white]'>
+        <div className='ml-12'>audiophile</div>
         <div>
-            <ul className='flex gap-6'>
+            <ul className='flex gap-6 ml-12'>
                 <li>HOME</li>
                 <li>HEADPHONES</li>
                 <li>SPEAKERS</li>
                 <li>EARPHONES</li>
             </ul>
         </div>
-        <div>
-            <img className='text-[black]' src={shape} alt='shape' />
+        <div className='ml-12'>
+            <img className='text-[black] ' src={shape} alt='shape' />
         </div>  
         <hr/>   
  </nav>

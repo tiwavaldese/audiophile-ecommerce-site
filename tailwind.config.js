@@ -26,6 +26,7 @@ export default {
         'custom-white': 'rgba(255,255,255,1)',
         'orange-bg': 'rgba(251,175,133,1)',
         'oranger-bg': ' #D87D4A',
+        'light-gray' : '#F1F1F1',
       },
       fontFamily:{
         poppins: ['Poppins', 'sans-serif'],
