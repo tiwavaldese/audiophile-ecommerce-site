@@ -5,11 +5,11 @@ const NavBar = () => {
   return (
     <div className=' bg-[black]'>
        <nav className='p-12 mx-auto  flex justify-evenly text-[white]'>
-        <div className='ml-12'>audiophile</div>
+        <div className='ml-12 font-bold'>audiophile</div>
         <div>
             <ul className='flex gap-6 ml-12'>
                 <li>HOME</li>
-                <li>HEADPHONES</li>
+                <li className='text-[orange]'>HEADPHONES</li>
                 <li>SPEAKERS</li>
                 <li>EARPHONES</li>
             </ul>
