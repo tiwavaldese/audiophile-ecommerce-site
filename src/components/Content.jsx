@@ -13,22 +13,22 @@ function Content() {
       <div className='relative bg-light-gray h-40 w-64 mt-12 '>
         <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={headphone}/>
       <div className='text-center mt-12 pt-11'>
-        <h2>HEADPHONES</h2>
-        <p>SHOP <span></span> </p>
+        <h2 className='font-bold'>HEADPHONES</h2>
+        <p className='text-xs'>SHOP <span></span> </p>
       </div>
       </div>
       <div className='relative bg-light-gray h-40 w-64 mt-12'>
       <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={speaker} />
       <div className='text-center mt-12 pt-11'>
-      <h2>SPEAKERS</h2>
-      <p>SHOP <span></span> </p>
+      <h2 className='font-bold'>SPEAKERS</h2>
+      <p className='text-xs'>SHOP <span></span> </p>
       </div>
       </div>
       <div className='relative bg-light-gray h-40 w-64 mt-12'>
       <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={earphone} />
       <div className='text-center mt-12 pt-11'>
-      <h2>EARPHONES</h2>
-      <p>SHOP <span></span> </p>
+      <h2 className='font-bold'>EARPHONES</h2>
+      <p className='text-xs'>SHOP <span></span> </p>
       </div>
       </div>
      </div>
