@@ -42,11 +42,11 @@ function Content() {
       </div>
       </div>
      </div>
-     <div className='flex justify-evenly bg-oranger-bg mx-auto max-w-4xl h-750'>
+     <div className='flex justify-evenly bg-oranger-bg mx-auto max-w-4xl h-400'>
      <div className=' w-600 h-400 '>
-        <img className='w-150 pt-20 pb-0 h-500' src={speaker} alt='speaker' />
+        <img className='mt-28 mb-0 h-300' src={speaker} alt='speaker' />
       </div>
-      <div className='mt-20'>
+      <div className='mt-32'>
         <h2 className='text-c-white  text-3xl font-bold'>ZX9 <br/> SPEAKER</h2>
         <p className='text-c-white my-5'>Upgrade to premium speakers that are <br/> phenomenally built to deliver truly remarkable <br/> sound.</p>
         <button className='bg-m-dark p-3 w-50 h-9 my-auto text-xs text-c-white mb-10'>SEE PRODUCT</button>

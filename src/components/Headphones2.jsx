@@ -13,20 +13,20 @@ import mask2 from '../assets/Mask2.png'
 import speaker2 from '../assets/Speaker2.png';
 import { FaChevronRight } from 'react-icons/fa';
 
-const Headphones1 = () => {
+const Headphones2 = () => {
   return (
     <div>
       <NavBar/>
       <div className='flex max-w-4xl justify-evenly mx-auto my-24'>
         <div className='flex-1'>
             <button className='mb-12'>Go Back</button>
-          <img src={bitmap4}/>
+          <img src={mask}/>
         </div>
         <div className='flex-1 ml-24 mt-12'>
             <span className='text-sm text-[orange] tracking-widest' >NEW PRODUCT</span>
-            <h2 className='font-bold text-5xl my-5 '>XX99 Mark II <br/> HEADPHONES</h2>
-            <p className='mb-5  '>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
-            <span className='font-bold '>$2,999</span>
+            <h2 className='font-bold text-5xl my-5 '>XX99 Mark I <br/> HEADPHONES</h2>
+            <p className='mb-5 '>As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go. </p>
+            <span className='font-bold '>$1,750</span>
             <div className='flex gap-4 mt-5'>
             <button className='bg-light-bg p-3 text-xs text-black h-10 w-110 '>-<span className='font-bold px-6'>1</span>+</button>
             <button className='bg-orange-bg p-3 h-10 w-130 text-xs text-white items-center'>ADD TO CART</button>
@@ -36,9 +36,9 @@ const Headphones1 = () => {
       <div className='flex max-w-4xl justify-evenly mx-auto my-24'>
         <div className='w-550'>
             <h2 className='font-bold text-2xl'>FEATURES</h2>
-            <p className='my-5 text-sm'>Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.</p>
+            <p className='my-5 text-sm'>As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.</p>
            
-            <p>The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic.</p>
+            <p>From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector.</p>
         </div>
         <div className='flex-1 ml-24'>
             <h2 className='font-bold text-2xl'>IN THE BOX</h2>
@@ -58,10 +58,6 @@ const Headphones1 = () => {
                 <span className='text-[orange]'>1x</span>
                 <span className='ml-6'>3.5mm 5m Audio Cable</span>
             </p>
-            <p>
-                <span className='text-[orange]'>1x</span>
-                <span className='ml-6'>Travel Bag</span>
-            </p>
         </div>
       </div>
       <div className='flex max-w-4xl justify-evenly mx-auto my-24 gap-5'>
@@ -79,9 +75,9 @@ const Headphones1 = () => {
       <div className='flex justify-evenly mt-10 mb-24 max-w-4xl mx-auto gap-5'>
         
         <div>
-            <img src={mask}/>
+            <img src={bitmap4}/>
             <div className='text-center'>
-            <h2 className='font-bold my-5'>XX99 MASK I</h2>
+            <h2 className='font-bold my-5'>XX99 MASK II</h2>
             <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
             </div>
         </div>
@@ -146,4 +142,4 @@ const Headphones1 = () => {
   )
 }
 
-export default Headphones1
+export default Headphones2
