@@ -7,6 +7,9 @@ import bitmap3 from '../assets/Bitmap-3.png'
 import bitmap4 from '../assets/Bitmap-4.png'
 import bitmap5 from '../assets/Bitmap-5.png'
 import bitmap6 from '../assets/Bitmap-6.png'
+import bitmap7 from '../assets/Bitmap-7.png'
+import bitmap8 from '../assets/Bitmap-8.png'
+import bitmap9 from '../assets/Bitmap-9.png'
 import Footer from './Footer';
 import mask from '../assets/Mask.png'
 import mask2 from '../assets/Mask2.png'
@@ -62,11 +65,11 @@ const Headphones2 = () => {
       </div>
       <div className='flex max-w-4xl justify-evenly mx-auto my-24 gap-5'>
         <div className=' flex flex-col gap-5'>
-            <img className='h-230' src={bitmap3}/>
-            <img src={bitmap5}/>
+            <img className='h-230' src={bitmap7}/>
+            <img src={bitmap8}/>
         </div>
         <div>
-            <img src={bitmap6}/>
+            <img src={bitmap9}/>
         </div>
       </div>
       <div className='text-center font-bold text-2xl'>
