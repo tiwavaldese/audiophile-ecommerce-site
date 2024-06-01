@@ -1,5 +1,6 @@
 import React from 'react'
 import shape from '../assets/Shape.png'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -8,10 +9,10 @@ const NavBar = () => {
         <div className='ml-12 font-bold'>audiophile</div>
         <div>
             <ul className='flex gap-6 ml-12'>
-                <li>HOME</li>
-                <li className='text-[orange]'>HEADPHONES</li>
-                <li>SPEAKERS</li>
-                <li>EARPHONES</li>
+                <li><Link to='/'>HOME</Link></li>
+                <li className='text-[orange]'><Link to='/headphones'>HEADPHONES</Link></li>
+                <li><Link to='/speakers'>SPEAKERS</Link></li>
+                <li><Link to='/earphones'>EARPHONES</Link></li>
             </ul>
         </div>
         <div className='ml-12'>
