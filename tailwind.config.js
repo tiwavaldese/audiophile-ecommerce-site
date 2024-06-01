@@ -24,7 +24,7 @@ export default {
         'c-light-gray' : '#486A9B',
         'm-dark' : '#1E2A47',
         'custom-white': 'rgba(255,255,255,1)',
-        'orange-bg': 'rgba(251,175,133,1)',
+        'orange-bg': '#D87D4A',
         'oranger-bg': ' #D87D4A',
         'light-gray' : '#F1F1F1',
         'white-50': 'rgba(255, 255, 255, 0.5)',
