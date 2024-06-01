@@ -11,10 +11,14 @@ export default {
       height: {
         'custom-400px': '400px',
         'custom-750px': '750px',
+        '230': '230px',
       },
       width: {
-        'custom-700px': '700px',
-        'custom-400px': '400px',
+        '700': '700px',
+        '400': '400px',
+        '200': '200px',
+        '550': '550px',
+
       },
       colors: {
         'd-dark': '#1a202c', 

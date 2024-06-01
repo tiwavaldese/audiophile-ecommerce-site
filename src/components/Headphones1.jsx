@@ -34,13 +34,13 @@ const Headphones1 = () => {
         </div>
       </div >
       <div className='flex max-w-4xl justify-evenly mx-auto my-24'>
-        <div className='w-200'>
+        <div className='w-550'>
             <h2 className='font-bold text-2xl'>FEATURES</h2>
             <p className='my-5 text-sm'>Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.</p>
            
             <p>The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic.</p>
         </div>
-        <div className=' ml-24'>
+        <div className='flex-1 ml-24'>
             <h2 className='font-bold text-2xl'>IN THE BOX</h2>
             <p className='mt-5'>
                 <span className='text-[orange]'>1x</span>
@@ -66,7 +66,7 @@ const Headphones1 = () => {
       </div>
       <div className='flex max-w-4xl justify-evenly mx-auto my-24 gap-5'>
         <div className=' flex flex-col gap-5'>
-            <img className='h-48' src={bitmap3}/>
+            <img className='h-230' src={bitmap3}/>
             <img src={bitmap5}/>
         </div>
         <div>
