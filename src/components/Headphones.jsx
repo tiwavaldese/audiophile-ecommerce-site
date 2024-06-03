@@ -8,6 +8,7 @@ import mask from '../assets/Mask.png'
 import bitmap3 from '../assets/Bitmap-3.png'
 import { FaChevronRight } from 'react-icons/fa';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Headphones = () => {
   return (
@@ -24,14 +25,14 @@ const Headphones = () => {
             <span className='text-sm text-[orange] tracking-widest' >NEW PRODUCT</span>
             <h2 className='font-bold text-5xl my-5 '>XX99 Mark II <br/> HEADPHONES</h2>
             <p className='mb-5  '>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/headphones1'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
       </div >
       <div className='flex max-w-4xl justify-evenly mx-auto my-24'>
       <div className='flex-1 mt-12'>
             <h2 className='font-bold text-5xl my-5 '>XX99 Mark I <br/> HEADPHONES</h2>
             <p className='mb-5  '>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/headphones2'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
         <div className='flex-1'>
           <img src={mask}/>
@@ -52,30 +53,33 @@ const Headphones = () => {
         <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={headphone}/>
       <div className='text-center mt-12 pt-11'>
         <h2 className='font-bold'>HEADPHONES</h2>
-        <div className=' gap-1 flex justify-center mt-1'>
+        <Link to='/headphones'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
+         </Link>
       </div>
       </div>
       <div className='relative bg-light-gray h-40 w-64 mt-12'>
       <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={speaker} />
       <div className='text-center mt-12 pt-11'>
       <h2 className='font-bold'>SPEAKERS</h2>
-      <div className=' gap-1 flex justify-center mt-1'>
+      <Link to='/speakers'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
+         </Link>
       </div>
       </div>
       <div className='relative bg-light-gray h-40 w-64 mt-12'>
       <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={earphone} />
       <div className='text-center mt-12 pt-11'>
       <h2 className='font-bold'>EARPHONES</h2>
-      <div className=' gap-1 flex justify-center mt-1'>
+      <Link to='/earphones'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
+         </Link>
       </div>
       </div>
      </div>

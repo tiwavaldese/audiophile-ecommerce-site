@@ -13,6 +13,7 @@ import mask from '../assets/Mask.png'
 import mask2 from '../assets/Mask2.png'
 import speaker2 from '../assets/Speaker2.png';
 import { FaChevronRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Headphones3 = () => {
   return (
@@ -79,14 +80,14 @@ const Headphones3 = () => {
             <img src={bitmap4}/>
             <div className='text-center'>
             <h2 className='font-bold my-5'>XX99 MASK II</h2>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/headphones1'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
             </div>
         </div>
         <div>
             <img src={mask}/>
             <div className='text-center'>
             <h2 className='font-bold my-5'>XX99 MASK I </h2>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/headphones2'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
             </div>
             </div>
         <div>
@@ -102,10 +103,11 @@ const Headphones3 = () => {
         <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={headphone}/>
       <div className='text-center mt-12 pt-11'>
         <h2 className='font-bold'>HEADPHONES</h2>
-        <div className=' gap-1 flex justify-center mt-1'>
+        <Link to='/headphones2'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
+         </Link>
       </div>
       </div>
       <div className='relative bg-light-gray h-40 w-64 mt-12'>
