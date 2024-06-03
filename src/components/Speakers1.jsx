@@ -14,7 +14,7 @@ import mask2 from '../assets/Mask2.png'
 import speaker2 from '../assets/Speaker2.png';
 import { FaChevronRight } from 'react-icons/fa';
 
-const Headphones3 = () => {
+const Speakers1 = () => {
   return (
     <div>
       <NavBar/>
@@ -143,4 +143,4 @@ const Headphones3 = () => {
   )
 }
 
-export default Headphones3
+export default Speakers1

@@ -13,8 +13,8 @@ const Header = () => {
             <p className='mb-5 text-white-75'>Experience natural, lifelike audio and exceptional <br/> build quality made for the passionate music <br/> enthusiast.</p>
             <button className='bg-orange-bg p-3 text-xs '>SEE PRODUCT</button>
         </div>
-        <div className='h-custom-100px'>
-            <img className='h-custom-400px border-0' src={bitmap} alt='headphone' />
+        <div className='w-500'>
+            <img className=' border-0' src={bitmap} alt='headphone' />
         </div>
       </div>
     </div>
