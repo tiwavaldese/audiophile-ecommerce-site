@@ -8,6 +8,7 @@ import Headphones1 from './components/Headphones1';
 import Headphones2 from './components/Headphones2';
 import Headphones3 from './components/Headphones3';
 import Speakers1 from './components/Speakers1';
+import Speakers2 from './components/Speaker2';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='headphones2' element={<Headphones2/>}/>
       <Route path='headphones3' element={<Headphones3/>}/>
       <Route path='/speakers1' element={< Speakers1/>} />
+      <Route path='/speakers2' element={< Speakers2/>} />
       </Routes>
     </div>
     </Router>
