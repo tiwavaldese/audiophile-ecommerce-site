@@ -25,14 +25,14 @@ const Speaker = () => {
             <span className='text-sm text-[orange] tracking-widest' >NEW PRODUCT</span>
             <h2 className='font-bold text-5xl my-5 '>ZX9  <br/> SPEAKERS</h2>
             <p className='mb-5  '>Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/speakers1'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
       </div >
       <div className='flex max-w-4xl justify-evenly mx-auto my-24 '>
       <div className='flex-1 mt-12 '>
             <h2 className='font-bold text-5xl my-5 '>ZX7  <br/> SPEAKERS</h2>
             <p className='mb-5 '>Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.</p>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/speakers2'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
         <div className='flex-1 ml-5'>
           <img src={speaker3}/>

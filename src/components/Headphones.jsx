@@ -5,6 +5,7 @@ import speaker from '../assets/Speaker.png';
 import earphone from '../assets/Earphone.png';
 import bitmap4 from '../assets/Bitmap-4.png'
 import mask from '../assets/Mask.png'
+import mask2 from '../assets/Mask2.png'
 import bitmap3 from '../assets/Bitmap-3.png'
 import { FaChevronRight } from 'react-icons/fa';
 import Footer from './Footer';
@@ -31,7 +32,7 @@ const Headphones = () => {
       <div className='flex max-w-4xl justify-evenly mx-auto my-24'>
       <div className='flex-1 mt-12'>
             <h2 className='font-bold text-5xl my-5 '>XX99 Mark I <br/> HEADPHONES</h2>
-            <p className='mb-5  '>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+            <p className='mb-5'>As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.</p>
             <Link to='/headphones2'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
         <div className='flex-1'>
@@ -40,12 +41,12 @@ const Headphones = () => {
       </div>
       <div className='flex max-w-4xl justify-evenly mx-auto my-24'>
         <div className='flex-1 '>
-          <img src={bitmap4}/>
+          <img src={mask2}/>
         </div>
         <div className='flex-1 ml-24 mt-12'>
             <h2 className='font-bold text-5xl my-5 '>XX59 <br/> HEADPHONES</h2>
             <p className='mb-5  '>Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.</p>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/headphones3'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
       </div>
       <div className='flex justify-evenly my-24 max-w-5xl mx-auto  '>

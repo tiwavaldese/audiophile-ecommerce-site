@@ -53,13 +53,13 @@ function Content() {
       <div className='mt-32'>
         <h2 className='text-c-white  text-3xl font-bold'>ZX9 <br/> SPEAKER</h2>
         <p className='text-c-white my-5'>Upgrade to premium speakers that are <br/> phenomenally built to deliver truly remarkable <br/> sound.</p>
-        <button className='bg-m-dark p-3 w-50 h-9 my-auto text-xs text-c-white mb-10'>SEE PRODUCT</button>
+        <Link to='/speakers1'><button className='bg-m-dark p-3 w-50 h-9 my-auto text-xs text-c-white mb-10'>SEE PRODUCT</button></Link>
       </div>
      </div>
      <div className='flex mx-auto max-w-4xl my-12 relative'>
       <div className='absolute  top-24 left-2 pl-80 transform -translate-x-1/2 -translate-y-1/2'>
         <h2 className='font-bold text-2xl mb-3'>ZX7 SPEAKER</h2>
-        <button className='bg-m-dark p-3 w-50 h-9 my-auto text-xs text-c-white'>SEE PRODUCT</button>
+        <Link to='/speakers2'><button className='bg-m-dark p-3 w-50 h-9 my-auto text-xs text-c-white'>SEE PRODUCT</button></Link>
       </div>
       <div>
         <img src={bitmap1} />
@@ -71,7 +71,7 @@ function Content() {
       </div>
       <div className='flex-1 flex flex-col justify-center items-center  bg-light-gray'>
         <h2 className='font-bold text-2xl mb-5 '>YX1 EARPHONES</h2>
-        <button className='bg-m-dark p-3 w-15 h-9  text-xs text-c-white'>SEE PRODUCT</button>
+        <Link to='/earphones1'><button className='bg-m-dark p-3 w-15 h-9  text-xs text-c-white'>SEE PRODUCT</button></Link>
       </div>
      </div>
      <div className='flex mx-auto max-w-4xl my-24 '>

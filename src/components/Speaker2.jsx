@@ -111,7 +111,7 @@ const Speaker2 = () => {
         <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={headphone}/>
       <div className='text-center mt-12 pt-11'>
         <h2 className='font-bold'>HEADPHONES</h2>
-        <Link to='/headphones2'><div className=' gap-1 flex justify-center mt-1'>
+        <Link to='/headphones'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
@@ -133,10 +133,11 @@ const Speaker2 = () => {
       <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={earphone} />
       <div className='text-center mt-12 pt-11'>
       <h2 className='font-bold'>EARPHONES</h2>
-      <div className=' gap-1 flex justify-center mt-1'>
+      <Link to='/earphones'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
+         </Link>
       </div>
       </div>
      </div>

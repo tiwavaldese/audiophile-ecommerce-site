@@ -24,7 +24,7 @@ const Earphones = () => {
             <span className='text-sm text-[orange] tracking-widest' >NEW PRODUCT</span>
             <h2 className='font-bold text-5xl my-5 '>YX1 WIRELESS <br/> EARPHONES</h2>
             <p className='mb-5  '>Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.</p>
-            <button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button>
+            <Link to='/earphones1'><button className='bg-orange-bg p-3 text-xs text-white '>SEE PRODUCT</button></Link>
         </div>
       </div >
       <div className='flex justify-evenly my-24 max-w-5xl mx-auto  '>
@@ -54,7 +54,7 @@ const Earphones = () => {
       <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={earphone} />
       <div className='text-center mt-12 pt-11'>
       <h2 className='font-bold'>EARPHONES</h2>
-      <Link to='./earphones'><div className=' gap-1 flex justify-center mt-1'>
+      <Link to='/earphones'><div className=' gap-1 flex justify-center mt-1'>
           <span className='text-xs'>SHOP</span> 
           <FaChevronRight className='text-[orange] mt-1'size={12}/> 
          </div>
