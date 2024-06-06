@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 import Home from './components/Home'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Headphones from './components/Headphones';
