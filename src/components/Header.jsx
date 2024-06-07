@@ -33,11 +33,12 @@ const Header = () => {
             <Link to='/headphones1'><button className='bg-orange-bg p-3 text-xs'>SEE PRODUCT</button></Link>
         </div>
     </div>
-    <div className='bg-cover flex-col pt-12 flex bg-center bg-no-repeat md:hidden lg:hidden' style={{ backgroundImage: `url(${hero3})` }}>
-        <div className='text-white items-center flex flex-col mt-24'>
-            <span className='text-sm text-white-50 tracking-widest'>NEW PRODUCT</span>
+  
+    <div className='bg-cover pt-14 bg-center bg-no-repeat h-500  md:hidden lg:hidden' style={{ backgroundImage: `url(${hero3})` }}>
+        <div className='text-white items-center flex flex-col pt-14'>
+            <span className='text-sm text-white-50 pt-0 tracking-widest'>NEW PRODUCT</span>
             <h2 className='font-bold text-5xl my-5'>XX99 Mark II <br /> HEADPHONES</h2>
-            <p className='mb-5 text-white-75'>
+            <p className='mb-5 w-50 text-white-75'>
                 Experience natural, lifelike audio and exceptional <br />
                 build quality made for the passionate music <br /> enthusiast.
             </p>
@@ -45,7 +46,6 @@ const Header = () => {
         </div>
     </div>
 </div>
-
     </div>
   )
 }

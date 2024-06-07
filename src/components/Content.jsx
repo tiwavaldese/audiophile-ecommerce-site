@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 function Content() {
   return (
     <div>
-     <div className='flex justify-evenly my-24 max-w-5xl mx-auto  '>
+     <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center md:justify-evenly lg:justify-evenly my-24 max-w-5xl mx-auto  '>
       <div className='relative bg-light-gray h-40 w-64 mt-12 '>
         <img className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={headphone}/>
       <div className='text-center mt-12 pt-11'>
