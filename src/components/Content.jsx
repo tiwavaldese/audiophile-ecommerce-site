@@ -77,7 +77,7 @@ function Content() {
      </div>
      <div className='flex flex-col lg:flex-row mx-auto max-w-3xl items-center lg:max-w-4xl my-24 '>
       <div className='flex-1 mt-24 order-2 lg:order-1'>
-        <h2 className='text-4xl mb-5'>BRINING YOU THE<br/> <span className='text-[orange]'>BEST</span> AUDIO GEAR</h2>
+        <h2 className='text-4xl mb-5'>BRINGING YOU THE<br/> <span className='text-[orange]'>BEST</span> AUDIO GEAR</h2>
         <p className='text-xs leading-relaxed'>Located at the heart of New York City, Audiophile is the premier <br/> store for high end headphones, earphones, speakers, and audio <br/> accessories. We have a large showroom and luxury <br/> demonstration rooms available for you to browse and<br/> experience a wide range of our products. Stop by our store to<br/> meet some of the fantastic people who make Audiophile the <br/>best place to buy your portable audio equipment.</p>
       </div>
       <div className='flex-1 order-1 lg:order-2'>
